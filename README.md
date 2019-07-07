@@ -10,9 +10,11 @@ After these correlated predictions were generated, I tried the above mentioned e
 
 I performed the experiment for the binary case and ensembled the predictions of three uncorrelated models.
 Taking the median of the models seems to give the best result in this scenario when models have accuracy above 60 %.
+
 ![uncorrelated Case](./images/uncorrelated_case.png)
 
 I perfomed similar experiment after generating correlated predictions. In this case there was no clear winner. However, taking the geometric mean of predictions didn't seem to give good results.
+
 ![uncorrelated Case](./images/correlated_case.png)
 
 You can run [the notebook](https://www.kaggle.com/meaninglesslives/finding-the-best-way-to-ensemble/) on kaggle. I find this topic to be fascinating. This is just a simple demonstration and starter project. I believe one can rerun the experiment lets say 10000 times to get a more support for the conclusion.
